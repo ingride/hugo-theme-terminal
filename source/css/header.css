@@ -2,7 +2,7 @@
   position: absolute;
   background: var(--background);
   box-shadow: var(--shadow);
-  color: white;
+  color: var(--color);
   border: 2px solid;
   margin: 0;
   padding: 10px;
