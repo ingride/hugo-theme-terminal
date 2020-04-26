@@ -15,8 +15,8 @@ body {
   font-size: 1rem;
   line-height: 1.54;
   letter-spacing: -0.02em;
-  background-color: color-mod(var(--accent) blend(#1D1E28 98%));
   color: var(--color);
+  border: 15px solid aqua;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -236,7 +236,10 @@ ol ol {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 10px;
   width: 60%;
   margin: auto;
   min-height: 100vh;
