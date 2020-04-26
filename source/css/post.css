@@ -23,9 +23,9 @@
   }
 
   &-title {
-    --border: 3px dotted var(--accent);
+    --border: 3px dotted black;
     position: relative;
-    color: var(--accent);
+    color: black;
     margin: 0 0 15px;
     padding-bottom: 15px;
     border-bottom: var(--border);
